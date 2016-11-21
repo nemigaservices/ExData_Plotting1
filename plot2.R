@@ -1,0 +1,6 @@
+plot(dt$dateTime, dt$Global_active_power, type="n", xlab="", ylab="Global Active Power (kilowatts)")
+lines(dt$dateTime, dt$Global_active_power)
+png(filename = paste(current.dir, "/plot2.png", sep=""), width=480, height = 480)
+plot(dt$dateTime, dt$Global_active_power, type="n", xlab="", ylab="Global Active Power (kilowatts)")
+lines(dt$dateTime, dt$Global_active_power)
+dev.off()
