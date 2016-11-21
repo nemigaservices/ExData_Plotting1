@@ -1,3 +1,17 @@
+## Completed
+This repository contains completed assignment.
+The main script is
+
+{{{
+main.R
+}}}
+
+The scripts
+* downloads the dataset
+* plots all the data as required
+
+
+
 ## Introduction
 
 This assignment uses data from
