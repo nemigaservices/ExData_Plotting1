@@ -2,9 +2,9 @@
 This repository contains completed assignment.
 The main script is
 
-{{{
+```R
 main.R
-}}}
+```
 
 The scripts
 * downloads the dataset
