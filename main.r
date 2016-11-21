@@ -1,4 +1,4 @@
-LocationOfThisScript = function() # Function LocationOfThisScript returns the location of this .R script (may be needed to source other files in same dir)
+LocationOfThisScript = function() # Function LocationOfThisScript returns the location of this .R script (may be neeed to source other files in same dir)
 {
     this.file = NULL
     # This file may be 'sourced'
@@ -23,5 +23,8 @@ LocationOfThisScript = function() # Function LocationOfThisScript returns the lo
 }
 current.dir = LocationOfThisScript()
 source( paste(current.dir, "/readdata.r", sep=""))
-dtt<-readData()
+dt<-readData()
 source(paste(current.dir, "/plot1.r", sep=""))
+source(paste(current.dir, "/plot2.r", sep=""))
+source(paste(current.dir, "/plot3.r", sep=""))
+source(paste(current.dir, "/plot4.r", sep=""))
